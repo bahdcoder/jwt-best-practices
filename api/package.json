@@ -1,0 +1,13 @@
+{
+  "name": "jwt-best-practices",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@mikro-orm/mysql": "^4.3.0",
+    "@tensei/auth": "^0.2.3",
+    "@tensei/core": "^0.2.3",
+    "@tensei/graphql": "^0.2.3",
+    "@tensei/rest": "^0.2.3"
+  }
+}

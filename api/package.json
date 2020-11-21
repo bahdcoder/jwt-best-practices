@@ -4,10 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@mikro-orm/mysql": "^4.3.0",
-    "@tensei/auth": "^0.2.3",
-    "@tensei/core": "^0.2.3",
-    "@tensei/graphql": "^0.2.3",
-    "@tensei/rest": "^0.2.3"
+    "@mikro-orm/sqlite": "^4.3.0",
+    "@tensei/auth": "^0.2.4",
+    "@tensei/core": "^0.2.4",
+    "@tensei/graphql": "^0.2.4"
+  },
+  "scripts": {
+    "start": "node index"
   }
 }

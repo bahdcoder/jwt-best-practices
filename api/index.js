@@ -17,8 +17,8 @@ tensei()
             .plugin()
     ])
     .databaseConfig({
-        type: 'mysql',
-        dbName: 'tensei_real_life',
+        type: 'sqlite',
+        dbName: 'tensei.sqlite',
     })
     .start()
     .catch(console.log)
